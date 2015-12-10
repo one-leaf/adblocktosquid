@@ -28,7 +28,7 @@ def addrules(url):
         if line.find('[]')>=0: continue
         if line.startswith('!'): continue
         if line.startswith('['): continue
-        line=line.replace(‘.’,’\.’)
+        line=line.replace('.','\.')
         line=line.replace('^','.')
         line=line.replace('|http','http')
         line=line.replace('||','')
